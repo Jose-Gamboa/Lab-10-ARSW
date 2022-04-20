@@ -68,7 +68,19 @@ Para solucionar los problemas del despliegue se instaló node y npm. Luego con n
 
 5. Modifique la coleción de POSTMAN con NEWMAN de tal forma que pueda enviar 10 peticiones concurrentes. Verifique los resultados y presente un informe.
 
-6. Cree una nueva Function que resuleva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memoization. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
+
+![postman](images/solucion/postman1.png)
+
+Recuento de peticiones:
+
+![recuento](images/solucion/rendimiento_SR.jpeg)
+
+![memoria](images/solucion/memoria_SR.jpeg)
+
+
+6. Cree una nueva Function que resuelva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memorización. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
+
+
 
 **Preguntas**
 
