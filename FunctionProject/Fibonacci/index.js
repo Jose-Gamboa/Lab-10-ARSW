@@ -12,14 +12,16 @@ module.exports = async function (context, req) {
     prev_values[0] = nth_2;
     prev_values[1] = nth_1;
       
-    answer = fibonacci(nth);
+    
 
     function fibonacci(n) {
         if (n < 0)
             throw 'must be greater than 0'
         else if (n in prev_values) return prev_values[n];
         return prev_values[n] = fibonacci(n-1) + fibonacci(n-2);
-    }
+    };
+
+    answer = fibonacci(nth);
 
     context.res = {
         body: answer.toString()
