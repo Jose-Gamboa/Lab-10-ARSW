@@ -80,6 +80,14 @@ Recuento de peticiones:
 
 6. Cree una nueva Function que resuelva el problema de Fibonacci pero esta vez utilice un enfoque recursivo con memorización. Pruebe la función varias veces, después no haga nada por al menos 5 minutos. Pruebe la función de nuevo con los valores anteriores. ¿Cuál es el comportamiento?.
 
+Implementamos la memorización y recursividad, desplegamos esta nueva versión de la función en Azure:
+
+![despliegue2](images/solucion/despliegue_2.jpeg)
+
+Realizamos nuevamente 10 peticiones y verificamos el espacio de trabajo de memoria:
+
+
+
 
 
 **Preguntas**
